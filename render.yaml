@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: datakhangpl123
+    env: node
+    buildCommand: npm run build
+    startCommand: node dist/server.cjs
+    plan: free
