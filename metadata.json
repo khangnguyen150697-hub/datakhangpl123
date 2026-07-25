@@ -1,0 +1,6 @@
+{
+  "name": "Tra Cứu Văn Bản Kế Toán",
+  "description": "Ứng dụng tra cứu nhanh Nghị định, Thông tư kế toán, phân tích Chương/Điều, hỗ trợ đồng bộ Google Sheet và chỉnh sửa nội dung HTML.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
