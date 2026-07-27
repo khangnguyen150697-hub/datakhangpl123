@@ -54,7 +54,7 @@ export const Header: React.FC<HeaderProps> = ({
                 id="document-selector-dropdown"
                 value={selectedDocId}
                 onChange={(e) => onSelectDocument(e.target.value)}
-                className="w-full bg-slate-800/90 text-white pl-9 pr-10 py-2 rounded-lg border border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm font-medium transition cursor-pointer appearance-none shadow-inner"
+                className="w-[900px] bg-slate-800/90 text-white pl-9 pr-10 py-2 rounded-lg border border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm font-medium transition cursor-pointer appearance-none shadow-inner"
               >
                 {documents.length === 0 ? (
                   <option value="" disabled>-- Chưa có văn bản nào --</option>
