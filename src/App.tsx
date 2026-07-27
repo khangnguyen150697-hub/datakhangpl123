@@ -201,7 +201,7 @@ export default function App() {
               <div className="w-14 h-14 rounded-2xl bg-red-50 flex items-center justify-center mx-auto text-red-600">
                 <FileSpreadsheet className="w-7 h-7" />
               </div>
-              <h2 className="text-base font-bold text-slate-800">Chưa Có Văn Bản Nào Trong Google Sheet</h2>
+              <h2 className="text-base font-bold text-slate-800">....</h2>
               
               <button
                 onClick={() => setActiveTab('settings')}
