@@ -107,7 +107,7 @@ export const Header: React.FC<HeaderProps> = ({
             }`}
           >
            
-            <span>📖 Tra Cứu</span>
+            <span>Tra Cứu</span>
             {selectedDoc && (
               <span className="ml-1 bg-slate-800 text-slate-300 px-1.5 py-0.5 rounded text-[10px] font-mono">
                 {selectedDoc.id}
