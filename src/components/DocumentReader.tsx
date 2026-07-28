@@ -489,7 +489,7 @@ export const DocumentReader: React.FC<DocumentReaderProps> = ({
                         </span>
                       </div>
                       <span className="text-[10px] text-slate-500 font-normal shrink-0">
-                        {isCollapsed ? '▶ Thu gọn' : '▼ Chi tiết'}
+                        {isCollapsed ? 'Thu gọn' : '▼ Chi tiết'}
                       </span>
                     </div>
                   );
