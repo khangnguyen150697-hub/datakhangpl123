@@ -115,28 +115,22 @@ export const Header: React.FC<HeaderProps> = ({
             )}
           </button>
 
-          <button
-            onClick={() => setActiveTab('settings')}
-            className={`flex items-center space-x-2 px-4 py-2 text-xs sm:text-sm font-semibold border-b-2 transition whitespace-nowrap cursor-pointer ${
-              activeTab === 'settings'
-                ? 'border-blue-500 text-blue-400 bg-blue-500/10 rounded-t-lg'
-                : 'border-transparent text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 rounded-t-lg'
-            }`}
-          >
-            
-<span
+        <button
   onClick={() => {
     const password = prompt("Nhập mật khẩu");
+
+    if (password === null) return; // Bấm Hủy
+
     if (password === "khang123") {
-      navigate("/settings");
+      setActiveTab("settings");
     } else {
       alert("Sai mật khẩu");
     }
   }}
+  className={`...`}
 >
-  Cài Đặt
-</span>
-          </button>
+  <span>Cài Đặt</span>
+</button>
         </div>
 
       </div>
