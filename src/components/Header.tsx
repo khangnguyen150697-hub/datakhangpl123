@@ -65,7 +65,7 @@ export const Header: React.FC<HeaderProps> = ({
                         .filter((d) => (d.category || 'Văn bản khác') === cat)
                         .map((doc) => (
                           <option key={doc.id} value={doc.id} className="bg-slate-900 text-white py-1">
-                            [{doc.id}] {doc.name}
+                            {doc.name}
                           </option>
                         ))}
                     </optgroup>
