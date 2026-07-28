@@ -124,7 +124,7 @@ export const Header: React.FC<HeaderProps> = ({
             }`}
           >
             
-            {/* <span>Cài Đặt</span> */}
+<span>Cài Đặt</span> 
           </button>
         </div>
 
