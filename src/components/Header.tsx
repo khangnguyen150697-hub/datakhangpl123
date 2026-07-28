@@ -124,7 +124,18 @@ export const Header: React.FC<HeaderProps> = ({
             }`}
           >
             
-<span>Cài Đặt</span> 
+<span
+  onClick={() => {
+    const password = prompt("Nhập mật khẩu");
+    if (password === "khang123") {
+      navigate("/settings");
+    } else {
+      alert("Sai mật khẩu");
+    }
+  }}
+>
+  Cài Đặt
+</span>
           </button>
         </div>
 
